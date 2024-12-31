@@ -1,6 +1,10 @@
 import { FC } from 'react';
 
-const App: FC = () => {
+interface AppProps {
+  title: string;
+}
+
+const App: FC<AppProps> = () => {
   return <div>App</div>;
 };
 
